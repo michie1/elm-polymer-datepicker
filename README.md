@@ -5,9 +5,14 @@ Demo page:
 https://michie1.github.io/elm-polymer-datepicker/index.html
 
 Prerequisite:
-* elm 0.18
-* bower
+* [elm 0.18](http://elm-lang.org/)
+* [Bower](https://bower.io/)
+
 
 ```bower install --save app-datepicker```
+
 ```elm-make Main.elm --output main.js```
+
 ```python -m SimpleHTTPServer```
+
+```google-chrome http://localhost:8000/```
