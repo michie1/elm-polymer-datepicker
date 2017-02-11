@@ -1,9 +1,7 @@
 port module Main exposing (..)
 
-
 import Html exposing (node, div, text)
 import Html.Attributes exposing (attribute)
-
 import Date exposing (Date, fromString)
 
 main =
