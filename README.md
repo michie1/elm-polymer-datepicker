@@ -9,11 +9,10 @@ Prerequisite:
 * [Bower](https://bower.io/)
 
 
-```bower install --save webcomponents/webcomponentsjs``` 
-```bower install --save app-datepicker```
-
-```elm-make Main.elm --output main.js```
-
-```elm-reactor``` 
-
-```google-chrome http://localhost:8000/index.html```
+```
+bower install --save webcomponents/webcomponentsjs
+bower install --save app-datepicker
+elm-make Main.elm --output main.js
+elm-reactor
+google-chrome http://localhost:8000/index.html
+```
